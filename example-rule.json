@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "demo.pattern.01",
+  "sourceRef": "demo-notes:pattern-01",
+  "requires": [
+    { "id": "placement", "fact": "hasRequiredPlacement", "equals": true },
+    { "id": "support", "fact": "hasSupportingRelation", "equals": true }
+  ],
+  "blockers": [
+    { "id": "blocking-transform", "fact": "hasBlockingTransform", "equals": true }
+  ]
+}
