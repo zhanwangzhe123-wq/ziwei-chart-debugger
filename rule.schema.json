@@ -26,7 +26,7 @@
       "properties": {
         "id": { "type": "string", "minLength": 1 },
         "fact": { "type": "string", "minLength": 1 },
-        "equals": { "type": ["boolean", "number", "string"] }
+        "equals": { "anyOf": [{ "type": "boolean" }, { "type": "number" }, { "type": "string" }] }
       }
     }
   }
